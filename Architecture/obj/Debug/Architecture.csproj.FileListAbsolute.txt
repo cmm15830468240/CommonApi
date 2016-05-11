@@ -1,0 +1,5 @@
+D:\CommonApi\Architecture\bin\Debug\Architecture.dll
+D:\CommonApi\Architecture\bin\Debug\Architecture.pdb
+D:\CommonApi\Architecture\bin\Debug\Architecture.XML
+D:\CommonApi\Architecture\obj\Debug\Architecture.dll
+D:\CommonApi\Architecture\obj\Debug\Architecture.pdb

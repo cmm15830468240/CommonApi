@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Architecture</name>
+    </assembly>
+    <members>
+        <member name="T:Architecture.ApiBase.BaseHeadEntity">
+            <summary>
+            基础请求信息
+            </summary>
+        </member>
+        <member name="P:Architecture.ApiBase.BaseHeadEntity.AccessToken">
+            <summary>
+            授权字符
+            </summary>
+        </member>
+        <member name="P:Architecture.ApiBase.BaseHeadEntity.LoginId">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="T:Architecture.ApiBase.ResponseHeadEntity">
+            <summary>
+            响应头部描述信息
+            </summary>
+        </member>
+        <member name="P:Architecture.ApiBase.ResponseHeadEntity.rspCode">
+            <summary>
+            响应标识
+            </summary>
+        </member>
+        <member name="P:Architecture.ApiBase.ResponseHeadEntity.rspDesc">
+            <summary>
+            响应信息描述
+            </summary>
+        </member>
+    </members>
+</doc>
