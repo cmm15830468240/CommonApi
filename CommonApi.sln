@@ -9,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Core", "0.Core", "{AE7D42
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture", "Architecture\Architecture.csproj", "{CA7A96AB-A4A4-4833-AEFE-396A1D442991}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.DataEntity", "1.DataEntity", "{23EBD763-7945-43E9-A5B5-763E08C57F19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Business", "2.Business", "{FFC3D514-076A-4B67-87C6-BFEF8C3073E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Consumer", "3.Consumer", "{54CDE10D-5540-41B5-91B4-20AF57592669}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +34,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{32FB0307-CE5E-4982-ACE5-846C9FA5AA00} = {54CDE10D-5540-41B5-91B4-20AF57592669}
 		{CA7A96AB-A4A4-4833-AEFE-396A1D442991} = {AE7D42EB-D5AA-4376-9A6F-ADFB7BB09C4A}
 	EndGlobalSection
 EndGlobal

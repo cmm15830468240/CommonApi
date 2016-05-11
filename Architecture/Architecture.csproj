@@ -43,9 +43,13 @@
   <ItemGroup>
     <Compile Include="ApiBase\BaseHeadEntity.cs" />
     <Compile Include="ApiBase\ResponseHeadEntity.cs" />
+    <Compile Include="Access\AccessInfo.cs" />
+    <Compile Include="ArchitectureEnums.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="ApiXml\Architecture.XML" />
   </ItemGroup>

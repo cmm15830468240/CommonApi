@@ -14,7 +14,7 @@ namespace Architecture.ApiBase
         /// <summary>
         /// 默认构造函数
         /// </summary>
-        public ResponseHeadEntity()
+        protected ResponseHeadEntity()
         {
             rspCode = string.Empty;
             rspDesc = string.Empty;

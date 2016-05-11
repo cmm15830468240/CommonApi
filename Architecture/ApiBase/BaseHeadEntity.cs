@@ -11,15 +11,22 @@ namespace Architecture.ApiBase
     /// </summary>
     public abstract class BaseHeadEntity
     {
+        protected BaseHeadEntity()
+        {
+            AccessToken = string.Empty;
+
+
+        }
+
         /// <summary>
         /// 授权字符
         /// </summary>
         public string AccessToken { get; set; }
 
         /// <summary>
-        /// 用户ID
+        /// 用户身份
         /// </summary>
-        public int LoginId { get; set; }
+        public int Loginer { get; set; }
     }
 }
 
