@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataModel</name>
+    </assembly>
+    <members>
+        <member name="P:DataEntity.DemoEntity.Pkid">
+            <summary>
+            主键
+            </summary>	
+        </member>
+        <member name="P:DataEntity.DemoEntity.AdvName">
+            <summary>
+            广告名称
+            </summary>	
+        </member>
+        <member name="P:DataEntity.DemoEntity.AdvImg">
+            <summary>
+            图片
+            </summary>	
+        </member>
+        <member name="P:DataEntity.DemoEntity.Flag">
+            <summary>
+            有效性
+            </summary>	
+        </member>
+        <member name="P:DataEntity.DemoEntity.OrderNo">
+            <summary>
+            排序号
+            </summary>	
+        </member>
+        <member name="P:DataEntity.DemoEntity.TokenId">
+            <summary>
+            身份标识
+            </summary>	
+        </member>
+        <member name="P:DataEntity.DemoEntity.CreateDate">
+            <summary>
+            创建日期
+            </summary>	
+        </member>
+        <member name="M:DataEntity.DemoEntity.SetDefaultValue">
+            <summary>
+            set default value
+            </summary>
+        </member>
+        <member name="T:DataModel.CommonEnum.ProjectEnum">
+            <summary>
+            项目枚举类
+            </summary>
+        </member>
+    </members>
+</doc>

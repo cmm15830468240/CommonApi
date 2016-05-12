@@ -1,0 +1,4 @@
+D:\CommonApi\Dapper\bin\Debug\Dapper.dll
+D:\CommonApi\Dapper\bin\Debug\Dapper.pdb
+D:\CommonApi\Dapper\obj\Debug\Dapper.dll
+D:\CommonApi\Dapper\obj\Debug\Dapper.pdb
