@@ -1,6 +1,10 @@
 D:\CommonApi\Architecture\bin\Debug\Architecture.dll
 D:\CommonApi\Architecture\bin\Debug\Architecture.pdb
-D:\CommonApi\Architecture\bin\Debug\Architecture.XML
+D:\CommonApi\Architecture\bin\Debug\Newtonsoft.Json.dll
+D:\CommonApi\Architecture\bin\Debug\System.Net.Http.Formatting.dll
+D:\CommonApi\Architecture\bin\Debug\System.Web.Http.dll
+D:\CommonApi\Architecture\bin\Debug\Newtonsoft.Json.xml
+D:\CommonApi\Architecture\bin\Debug\System.Net.Http.Formatting.xml
+D:\CommonApi\Architecture\bin\Debug\System.Web.Http.xml
 D:\CommonApi\Architecture\obj\Debug\Architecture.dll
 D:\CommonApi\Architecture\obj\Debug\Architecture.pdb
-D:\CommonApi\Architecture\obj\Debug\Architecture.csprojResolveAssemblyReference.cache

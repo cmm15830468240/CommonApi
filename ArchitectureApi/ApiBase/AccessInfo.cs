@@ -4,22 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Architecture.Access
+namespace Architecture.Api.ApiBase
 {
     /// <summary>
     /// 访问者信息
     /// </summary>
-    public interface AccessInfo
+    public class AccessInfo
     {
         /// <summary>
         /// 访问者信息
         /// </summary>
-        User Accesser { get; set; }
+        public User Accesser { get; set; }
 
         /// <summary>
         /// 访问者客户端信息
         /// </summary>
-        Client AccessClient { get; set; }
+        public Client AccessClient { get; set; }
 
     }
 
@@ -30,24 +30,30 @@ namespace Architecture.Access
     public class User
     {
         /// <summary>
-        /// 唯一标识
+        /// 构造函数
+        /// </summary>
+        public User()
+        {
+            Guid = string.Empty;
+            Name = string.Empty;
+            Account = string.Empty;
+        }
+
+        /// <summary>
+        /// 登陆者唯一标识
         /// </summary>
         public string Guid { get; set; }
 
         /// <summary>
-        /// 名称
+        /// 登陆者名称
         /// </summary>
         public string Name { get; set; }
 
         /// <summary>
-        /// 账户
+        /// 登陆者账户
         /// </summary>
         public string Account { get; set; }
 
-        /// <summary>
-        /// 密码
-        /// </summary>
-        public string Password { get; set; }
     }
 
     /// <summary>
@@ -55,9 +61,15 @@ namespace Architecture.Access
     /// </summary>
     public class Client
     {
-         
+        /// <summary>
+        /// 客户端类型【ArchitectureEnums】
+        /// </summary>
+        public int ClientType { get; set; }
 
-
+        /// <summary>
+        /// 版本号
+        /// </summary>
+        public string VersionNo { get; set; }
 
     }
 }

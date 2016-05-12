@@ -1,0 +1,11 @@
+D:\CommonApi\ArchitectureApi\bin\Debug\Architecture.Api.dll
+D:\CommonApi\ArchitectureApi\bin\Debug\Architecture.Api.pdb
+D:\CommonApi\ArchitectureApi\bin\Debug\Architecture.XML
+D:\CommonApi\ArchitectureApi\bin\Debug\Newtonsoft.Json.dll
+D:\CommonApi\ArchitectureApi\bin\Debug\System.Net.Http.Formatting.dll
+D:\CommonApi\ArchitectureApi\bin\Debug\System.Web.Http.dll
+D:\CommonApi\ArchitectureApi\bin\Debug\Newtonsoft.Json.xml
+D:\CommonApi\ArchitectureApi\bin\Debug\System.Net.Http.Formatting.xml
+D:\CommonApi\ArchitectureApi\bin\Debug\System.Web.Http.xml
+D:\CommonApi\ArchitectureApi\obj\Debug\Architecture.Api.dll
+D:\CommonApi\ArchitectureApi\obj\Debug\Architecture.Api.pdb

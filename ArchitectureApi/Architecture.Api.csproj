@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CA7A96AB-A4A4-4833-AEFE-396A1D442991}</ProjectGuid>
+    <ProjectGuid>{91220F71-A92E-4CE9-83EE-4122EF86357F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Architecture</RootNamespace>
-    <AssemblyName>Architecture</AssemblyName>
+    <RootNamespace>Architecture.Api</RootNamespace>
+    <AssemblyName>Architecture.Api</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -20,8 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>3</WarningLevel>
-    <DocumentationFile>
-    </DocumentationFile>
+    <DocumentationFile>ApiXml\Architecture.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -54,7 +53,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiBase\AccessInfo.cs" />
+    <Compile Include="ApiBaseController.cs" />
+    <Compile Include="ApiBase\BaseHeadRequest.cs" />
+    <Compile Include="ApiBase\BaseHeadResponse.cs" />
+    <Compile Include="ApiFilter.cs" />
+    <Compile Include="ApiBase\ArchitectureEnums.cs" />
+    <Compile Include="BaseRequestEntity.cs" />
+    <Compile Include="BaseResponseEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="ApiXml\Architecture.XML" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Architecture.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Architecture.Api.ApiBase.AccessInfo">
+            <summary>
+            访问者信息
+            </summary>
+        </member>
+        <member name="P:Architecture.Api.ApiBase.AccessInfo.Accesser">
+            <summary>
+            访问者信息
+            </summary>
+        </member>
+        <member name="P:Architecture.Api.ApiBase.AccessInfo.AccessClient">
+            <summary>
+            访问者客户端信息
+            </summary>
+        </member>
+        <member name="T:Architecture.Api.ApiBase.User">
+            <summary>
+            登陆者信息
+            </summary>
+        </member>
+        <member name="M:Architecture.Api.ApiBase.User.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Architecture.Api.ApiBase.User.Guid">
+            <summary>
+            登陆者唯一标识
+            </summary>
+        </member>
+        <member name="P:Architecture.Api.ApiBase.User.Name">
+            <summary>
+            登陆者名称
+            </summary>
+        </member>
+        <member name="P:Architecture.Api.ApiBase.User.Account">
+            <summary>
+            登陆者账户
+            </summary>
+        </member>
+        <member name="T:Architecture.Api.ApiBase.Client">
+            <summary>
+            客户端信息
+            </summary>
+        </member>
+        <member name="P:Architecture.Api.ApiBase.Client.ClientType">
+            <summary>
+            客户端类型【ArchitectureEnums】
+            </summary>
+        </member>
+        <member name="P:Architecture.Api.ApiBase.Client.VersionNo">
+            <summary>
+            版本号
+            </summary>
+        </member>
+        <member name="T:Architecture.Api.ApiBase.BaseHeadRequest">
+            <summary>
+            基础请求信息
+            </summary>
+        </member>
+        <member name="M:Architecture.Api.ApiBase.BaseHeadRequest.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Architecture.Api.ApiBase.BaseHeadRequest.AccessToken">
+            <summary>
+            授权字符
+            </summary>
+        </member>
+        <member name="P:Architecture.Api.ApiBase.BaseHeadRequest.AccessInfomation">
+            <summary>
+            访问者信息
+            </summary>
+        </member>
+        <member name="T:Architecture.Api.ApiBase.BaseHeadResponse">
+            <summary>
+            响应头部描述信息
+            </summary>
+        </member>
+        <member name="M:Architecture.Api.ApiBase.BaseHeadResponse.#ctor">
+            <summary>
+            默认构造函数
+            </summary>
+        </member>
+        <member name="P:Architecture.Api.ApiBase.BaseHeadResponse.rspCode">
+            <summary>
+            响应标识【ArchitectureEnums】
+            </summary>
+        </member>
+        <member name="P:Architecture.Api.ApiBase.BaseHeadResponse.rspDesc">
+            <summary>
+            响应信息描述【ArchitectureEnums】
+            </summary>
+        </member>
+        <member name="T:Architecture.Api.ApiBase.ArchitectureEnums">
+            <summary>
+            框架枚举类
+            </summary>
+        </member>
+        <member name="T:Architecture.Api.ApiBase.ArchitectureEnums.ClientType">
+            <summary>
+            客户端类型
+            </summary>
+        </member>
+        <member name="T:Architecture.Api.ApiBase.ArchitectureEnums.HttpResponseCode">
+            <summary>
+            Api请求响应信息
+            </summary>
+        </member>
+        <member name="F:Architecture.Api.ApiBase.ArchitectureEnums.HttpResponseCode.OK">
+            <summary>
+            请求成功
+            </summary>
+        </member>
+        <member name="F:Architecture.Api.ApiBase.ArchitectureEnums.HttpResponseCode.ServiceBusy">
+            <summary>
+            服务繁忙
+            </summary>
+        </member>
+        <member name="F:Architecture.Api.ApiBase.ArchitectureEnums.HttpResponseCode.InvalidSignature">
+            <summary>
+            AccessToken 无效！
+            </summary>
+        </member>
+        <member name="F:Architecture.Api.ApiBase.ArchitectureEnums.HttpResponseCode.Unauthorized">
+            <summary>
+            未授权该api !
+            </summary>
+        </member>
+        <member name="F:Architecture.Api.ApiBase.ArchitectureEnums.HttpResponseCode.Unexception">
+            <summary>
+            服务内部错误!
+            </summary>
+        </member>
+        <member name="F:Architecture.Api.ApiBase.ArchitectureEnums.HttpResponseCode.FriendlyErrMsg">
+            <summary>
+            业务处理错误!
+            </summary>
+        </member>
+        <member name="T:Architecture.Api.ApiBaseController">
+            <summary>
+            Api统一基础类
+            </summary>
+        </member>
+        <member name="T:Architecture.Api.ApiFilter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Architecture.Api.ApiFilter.OnActionExecuting(System.Web.Http.Controllers.HttpActionContext)">
+            <summary>
+            请求安全性验证
+            </summary>
+            <param name="actionContext"></param>
+        </member>
+        <member name="T:Architecture.Api.IBaseRequest">
+            <summary>
+            Api请求实体基础接口
+            </summary>
+        </member>
+        <member name="P:Architecture.Api.IBaseRequest.Header">
+            <summary>
+            请求Header信息
+            </summary>
+        </member>
+        <member name="T:Architecture.Api.BaseRequestEntity`1">
+            <summary>
+            Api HttpRequest请求参数类
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Architecture.Api.BaseRequestEntity`1.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Architecture.Api.BaseRequestEntity`1.Header">
+            <summary>
+            请求Header信息
+            </summary>
+        </member>
+        <member name="P:Architecture.Api.BaseRequestEntity`1.Body">
+            <summary>
+            请求参数信息
+            </summary>
+        </member>
+        <member name="T:Architecture.BaseResponseEntity`1">
+            <summary>
+            HttpResponse信息
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+    </members>
+</doc>

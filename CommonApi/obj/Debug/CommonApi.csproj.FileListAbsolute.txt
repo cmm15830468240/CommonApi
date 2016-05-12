@@ -23,6 +23,5 @@ D:\CommonApi\CommonApi\bin\Newtonsoft.Json.xml
 D:\CommonApi\CommonApi\bin\System.Net.Http.Formatting.xml
 D:\CommonApi\CommonApi\bin\System.Web.Http.xml
 D:\CommonApi\CommonApi\bin\System.Web.Http.WebHost.xml
-D:\CommonApi\CommonApi\obj\Debug\CommonApi.csprojResolveAssemblyReference.cache
 D:\CommonApi\CommonApi\obj\Debug\CommonApi.dll
 D:\CommonApi\CommonApi\obj\Debug\CommonApi.pdb

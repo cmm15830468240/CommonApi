@@ -4,18 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Architecture.ApiBase
+namespace Architecture.Api.ApiBase
 {
     /// <summary>
     /// 基础请求信息
     /// </summary>
-    public abstract class BaseHeadEntity
+    public class BaseHeadRequest
     {
-        protected BaseHeadEntity()
+        /// <summary>
+        /// 构造函数
+        /// </summary>
+        public BaseHeadRequest()
         {
             AccessToken = string.Empty;
-
-
+            AccessInfomation = new AccessInfo();
         }
 
         /// <summary>
@@ -24,9 +26,9 @@ namespace Architecture.ApiBase
         public string AccessToken { get; set; }
 
         /// <summary>
-        /// 用户身份
+        /// 访问者信息
         /// </summary>
-        public int Loginer { get; set; }
+        public AccessInfo AccessInfomation { get; set; }
     }
 }
 

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel;
 
-namespace Architecture
+namespace Architecture.Api.ApiBase
 {
     /// <summary>
     /// 框架枚举类
