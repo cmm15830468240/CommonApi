@@ -34,7 +34,6 @@ namespace Architecture.Api.ApiBase
         /// </summary>
         public User()
         {
-            Guid = string.Empty;
             Name = string.Empty;
             Account = string.Empty;
         }
@@ -42,7 +41,7 @@ namespace Architecture.Api.ApiBase
         /// <summary>
         /// 登陆者唯一标识
         /// </summary>
-        public string Guid { get; set; }
+        public Guid Guid { get; set; }
 
         /// <summary>
         /// 登陆者名称

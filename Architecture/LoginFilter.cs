@@ -26,7 +26,7 @@ namespace Architecture
 
             if (loginer == null)
             {
-                redirectUrl = "~/Home/Login?ReturnUrl$" + filterContext.HttpContext.Server.UrlEncode(filterContext.HttpContext.Request.Url == null ? "" : filterContext.HttpContext.Request.Url.AbsoluteUri);
+                redirectUrl = "~/Home/Index?ReturnUrl$" + filterContext.HttpContext.Server.UrlEncode(filterContext.HttpContext.Request.Url == null ? "" : filterContext.HttpContext.Request.Url.AbsoluteUri);
                 filterContext.HttpContext.Response.Redirect(redirectUrl);
             }
         }

@@ -1,0 +1,6 @@
+D:\CommonApi\DataModel\bin\Debug\DataEntity.dll
+D:\CommonApi\DataModel\bin\Debug\DataEntity.pdb
+D:\CommonApi\DataModel\bin\Debug\DataModel.XML
+D:\CommonApi\DataModel\obj\Debug\DataEntity.dll
+D:\CommonApi\DataModel\obj\Debug\DataEntity.pdb
+D:\CommonApi\DataModel\obj\Debug\DataEntity.csprojResolveAssemblyReference.cache

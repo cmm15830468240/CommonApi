@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>DataModel</name>
+        <name>DataEntity</name>
     </assembly>
     <members>
-        <member name="P:DataEntity.DemoEntity.Pkid">
+        <member name="P:DataEntity.DemoEntity.PkId">
             <summary>
-            主键
+            
             </summary>	
         </member>
         <member name="P:DataEntity.DemoEntity.AdvName">
@@ -42,6 +42,26 @@
         <member name="M:DataEntity.DemoEntity.SetDefaultValue">
             <summary>
             set default value
+            </summary>
+        </member>
+        <member name="T:DataEntity.Loginer">
+            <summary>
+            API文档开发者
+            </summary>
+        </member>
+        <member name="P:DataEntity.Loginer.Account">
+            <summary>
+            账户
+            </summary>
+        </member>
+        <member name="P:DataEntity.Loginer.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:DataEntity.Loginer.ValidateCode">
+            <summary>
+            验证码
             </summary>
         </member>
         <member name="T:DataModel.CommonEnum.ProjectEnum">

@@ -9,4 +9,3 @@ D:\CommonApi\ArchitectureApi\bin\Debug\System.Net.Http.Formatting.xml
 D:\CommonApi\ArchitectureApi\bin\Debug\System.Web.Http.xml
 D:\CommonApi\ArchitectureApi\obj\Debug\Architecture.Api.dll
 D:\CommonApi\ArchitectureApi\obj\Debug\Architecture.Api.pdb
-D:\CommonApi\ArchitectureApi\obj\Debug\Architecture.Api.csprojResolveAssemblyReference.cache

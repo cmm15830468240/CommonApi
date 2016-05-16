@@ -21,4 +21,3 @@ D:\CommonApi\Architecture\bin\Debug\System.Web.WebPages.Deployment.xml
 D:\CommonApi\Architecture\bin\Debug\System.Web.WebPages.Razor.xml
 D:\CommonApi\Architecture\obj\Debug\Architecture.dll
 D:\CommonApi\Architecture\obj\Debug\Architecture.pdb
-D:\CommonApi\Architecture\obj\Debug\Architecture.csprojResolveAssemblyReference.cache

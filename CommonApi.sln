@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Consumer", "1.Consumer", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture.Api", "ArchitectureApi\Architecture.Api.csproj", "{91220F71-A92E-4CE9-83EE-4122EF86357F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataModel\DataModel.csproj", "{A59AF398-9120-4F06-AB1D-0DE0ED9552CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataEntity", "DataModel\DataEntity.csproj", "{A59AF398-9120-4F06-AB1D-0DE0ED9552CC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Orm", "4.Orm", "{94306B5F-BF21-4038-9E63-FD06FD8A1318}"
 EndProject

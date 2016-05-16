@@ -3,3 +3,4 @@ D:\CommonApi\DataModel\bin\Debug\DataModel.pdb
 D:\CommonApi\DataModel\bin\Debug\DataModel.XML
 D:\CommonApi\DataModel\obj\Debug\DataModel.dll
 D:\CommonApi\DataModel\obj\Debug\DataModel.pdb
+D:\CommonApi\DataModel\obj\Debug\DataModel.csprojResolveAssemblyReference.cache
