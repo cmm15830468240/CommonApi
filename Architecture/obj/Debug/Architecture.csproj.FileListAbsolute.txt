@@ -1,5 +1,6 @@
 D:\CommonApi\Architecture\bin\Debug\Architecture.dll
 D:\CommonApi\Architecture\bin\Debug\Architecture.pdb
+D:\CommonApi\Architecture\bin\Debug\DataEntity.dll
 D:\CommonApi\Architecture\bin\Debug\Microsoft.Web.Infrastructure.dll
 D:\CommonApi\Architecture\bin\Debug\Newtonsoft.Json.dll
 D:\CommonApi\Architecture\bin\Debug\System.Net.Http.Formatting.dll
@@ -10,6 +11,7 @@ D:\CommonApi\Architecture\bin\Debug\System.Web.Razor.dll
 D:\CommonApi\Architecture\bin\Debug\System.Web.WebPages.Deployment.dll
 D:\CommonApi\Architecture\bin\Debug\System.Web.WebPages.dll
 D:\CommonApi\Architecture\bin\Debug\System.Web.WebPages.Razor.dll
+D:\CommonApi\Architecture\bin\Debug\DataEntity.pdb
 D:\CommonApi\Architecture\bin\Debug\Newtonsoft.Json.xml
 D:\CommonApi\Architecture\bin\Debug\System.Net.Http.Formatting.xml
 D:\CommonApi\Architecture\bin\Debug\System.Web.Helpers.xml
@@ -19,5 +21,6 @@ D:\CommonApi\Architecture\bin\Debug\System.Web.Razor.xml
 D:\CommonApi\Architecture\bin\Debug\System.Web.WebPages.xml
 D:\CommonApi\Architecture\bin\Debug\System.Web.WebPages.Deployment.xml
 D:\CommonApi\Architecture\bin\Debug\System.Web.WebPages.Razor.xml
+D:\CommonApi\Architecture\obj\Debug\Architecture.csprojResolveAssemblyReference.cache
 D:\CommonApi\Architecture\obj\Debug\Architecture.dll
 D:\CommonApi\Architecture\obj\Debug\Architecture.pdb

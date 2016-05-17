@@ -2,4 +2,3 @@ D:\CommonApi\UnityTools\bin\Debug\UnityTools.dll
 D:\CommonApi\UnityTools\bin\Debug\UnityTools.pdb
 D:\CommonApi\UnityTools\obj\Debug\UnityTools.dll
 D:\CommonApi\UnityTools\obj\Debug\UnityTools.pdb
-D:\CommonApi\UnityTools\obj\Debug\UnityTools.csprojResolveAssemblyReference.cache

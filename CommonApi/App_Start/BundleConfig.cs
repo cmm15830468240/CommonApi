@@ -16,7 +16,8 @@ namespace CommonApi
             bundles.Add(new ScriptBundle("~/js/basejslib").Include(
                 "~/Scripts/jquery-1.10.2.min.js",
                 "~/Scripts/jquery.validate.min.js",
-                "~/Scripts/jquery.validate.unobtrusive.min.js"
+                "~/Scripts/jquery.validate.unobtrusive.min.js",
+                "~/Scripts/modernizr-2.6.2"
                 ));
 
           

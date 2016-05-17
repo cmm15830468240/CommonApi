@@ -28,32 +28,26 @@
         <form class="form-signin" method="post">
             <h2 class="form-signin-heading">Api-在线文档登陆</h2>
             @Html.TextBoxFor(m => m.Account, null, new { @class = "form-control", placeholder = "账户" })
-            @Html.ValidationMessageFor(m => m.Account)
 
             @Html.TextBoxFor(m => m.Password, null, new { @class = "form-control", placeholder = "密码" })
-            @Html.ValidationMessageFor(m => m.Account)
-
             <div>
-                <input type="text" id="ValidateCode" name="ValidateCode" placeholder="验证码" class="form-control" style="display:inline;" value="" />
+                @Html.TextBoxFor(m=>m.ValidateCode,null,new { @class = "form-control", placeholder = "验证码", @style = "display: inline;" })
                 <img id="valiCode" style="cursor: pointer;" src="@Url.Content("~/Home/GetValidateCode")" alt="验证码" />
             </div>
-
-            @*<div class="checkbox">
-                <label>
-                    <input type="checkbox" value="remember-me"> Remember me
-                </label>
-            </div>*@
+  
             <button class="btn btn-lg btn-primary btn-block" type="button" onclick="Login();">登陆</button>
-            @*<div style="color:red; margin-top:15px;">
+            <div style="color:red; margin-top:15px;">
                 @Html.ValidationSummary()
-            </div>*@
+            </div>
         </form>
         <script type="text/javascript">
-            $(function () {
-                $("#ValidateCode").bind("click", function () {
-                    this.src = window.basePath + "Home/GetValidateCode?time=" + (new Date()).getTime();
-                });
-            })
+            $(function() {
+                $("#valiCode")
+                    .bind("click",
+                        function() {
+                            this.src = window.basePath + "Home/GetValidateCode?time=" + (new Date()).getTime();
+                        });
+            });
 
             function Login() {
                 $('form').submit();

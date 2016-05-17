@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.Mvc;
+using DataEntity;
+
 
 namespace Architecture
 {
     /// <summary>
-    /// Web项目登陆权限验证
+    /// Web文档查看权限验证
     /// </summary>
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = false)]
     public class LoginFilterAttribute : ActionFilterAttribute
@@ -20,13 +22,16 @@ namespace Architecture
         public override void OnActionExecuting(ActionExecutingContext filterContext)
         {
             //未登录验证
-            var loginer = filterContext.HttpContext.Session["UserInfo"];
+            var loginer = filterContext.HttpContext.Session["UserInfo"] as Loginer;
 
             string redirectUrl = string.Empty;
 
-            if (loginer == null)
+            if (loginer == null || string.IsNullOrEmpty(loginer.Account) || string.IsNullOrEmpty(loginer.Password))
             {
-                redirectUrl = "~/Home/Index?ReturnUrl$" + filterContext.HttpContext.Server.UrlEncode(filterContext.HttpContext.Request.Url == null ? "" : filterContext.HttpContext.Request.Url.AbsoluteUri);
+                redirectUrl = "~/Home/Index?ReturnUrl$" +
+                              filterContext.HttpContext.Server.UrlEncode(filterContext.HttpContext.Request.Url == null
+                                  ? ""
+                                  : filterContext.HttpContext.Request.Url.AbsoluteUri);
                 filterContext.HttpContext.Response.Redirect(redirectUrl);
             }
         }
